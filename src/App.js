@@ -1,10 +1,13 @@
 import React from 'react';
+import GlobalStyles from './styles/GlobalStyles';
+import 'normalize.css/normalize.css';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
     <>
-      <h3>Project name: Artistic</h3>
-      <p>by Shaif Arfan</p>
+      <GlobalStyles />
+      <LandingPage />
     </>
   );
 }
